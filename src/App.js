@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
+import "./Components/PicOfDay";
+import PicOfDay from "./Components/PicOfDay";
 
 function App() {
   return (
     <div className="App">
+
+      <PicOfDay />
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        
       </p>
     </div>
   );
