@@ -9,7 +9,6 @@ const PicOfDay = () => {
     axios
         .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
         .then(res => {
-        // at this point, Picture = []
         setData(res.data);
         })
         .catch(error => {

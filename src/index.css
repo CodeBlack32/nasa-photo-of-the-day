@@ -21,3 +21,7 @@ code {
 .card img {
   width: 100%;
 }
+
+.header {
+  background: cornflowerblue;
+}

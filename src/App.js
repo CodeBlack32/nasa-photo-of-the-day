@@ -1,16 +1,15 @@
 import React from "react";
 import "./App.css";
-import "./Components/PicOfDay";
 import PicOfDay from "./Components/PicOfDay";
+import Header from "./Components/Header"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
     <div className="App">
-
+      <Header />
       <PicOfDay />
-      <p>
-        
-      </p>
+     <Footer />
     </div>
   );
 }
